@@ -59,6 +59,9 @@
     height: 21px;
     background-color: #E5675D;
 }
+.ContainerOrage span {
+    width: 77px;
+}
 
 .ContainerOrage span h4{
     font-family: "Sora", sans-serif;
