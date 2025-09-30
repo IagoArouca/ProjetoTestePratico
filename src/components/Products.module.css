@@ -38,12 +38,16 @@
     font-family: "Sora", sans-serif;
     font-weight: 700;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ContainerBlueText span h4{
      font-family: "Sora", sans-serif;
     font-weight: 300;
     font-size: 10px;
     line-height: 100%;
+    color: #FFFFFF;
 }
 
 .ContainerOrage{
