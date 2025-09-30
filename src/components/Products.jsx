@@ -53,11 +53,11 @@ function ProductCard() {
 
             <div className={style.ContainerProducts}>
                 <div className={style.ContainerBlue}>
-                    <span>10%</span>
-                    <span className={style.ContainerBlueText}>OFF</span>
+                    <span className={style.NumeroPorcentagem}><h4>10%</h4></span>
+                    <span className={style.ContainerBlueText}><h4>OFF</h4></span>
                 </div>
                 <div className={style.ContainerOrage}>
-                    <span>LANÇAMENTO</span>
+                    <span><h4>LANÇAMENTO</h4></span>
                 </div>
 
                 <div className={style.ContainerImgProduct}>
