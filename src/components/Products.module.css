@@ -51,13 +51,17 @@
 }
 
 .ContainerLancamento  {
+    
+    height: 7px;
+    width: 77px;
+    color: #FFFFFF;
+}
+
+.LancamentoTitle{
     font-family: "Sora", sans-serif;
     font-weight: 300;
     font-size: 10px;
     font-style: bold;
-    height: 7px;
-    width: 77px;
-    color: #FFFFFF;
 }
 .ContainerOrage{
     position: absolute;
