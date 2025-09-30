@@ -57,7 +57,7 @@ function ProductCard() {
                     <span className={style.ContainerBlueText}><h4>OFF</h4></span>
                 </div>
                 <div className={style.ContainerOrage}>
-                    <span><h4>LANÇAMENTO</h4></span>
+                    <span className={style.ContainerLancamento}><h4>LANÇAMENTO</h4></span>
                 </div>
 
                 <div className={style.ContainerImgProduct}>

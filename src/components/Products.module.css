@@ -50,6 +50,11 @@
     color: #FFFFFF;
 }
 
+.ContainerLancamento h4 {
+
+    height: 7px;
+    color: #FFFFFF;
+}
 .ContainerOrage{
     position: absolute;
     top: 36px;
