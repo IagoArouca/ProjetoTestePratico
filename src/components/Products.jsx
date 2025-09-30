@@ -22,7 +22,7 @@ function ProductCard() {
         <div className={style.ContainerEstrutural}>
             <div className={style.ContainerProducts}>
                 <div className={style.ContainerBlue}>
-                    <span className={style.ContainerNumberPorcentagem}>10%</span>
+                    <span ><h4 className={style.ContainerNumberPorcentagem}>10%</h4></span>
                     <span className={style.ContainerBlueText}>OFF</span>
                 </div>
                 <div className={style.ContainerOrage}>
@@ -53,7 +53,7 @@ function ProductCard() {
 
             <div className={style.ContainerProducts}>
                 <div className={style.ContainerBlue}>
-                    <span className={style.ContainerNumberPorcentagem}>10%</span>
+                    <span><h4 className={style.ContainerNumberPorcentagem}>10%</h4></span>
                     <span className={style.ContainerBlueText}>OFF</span>
                 </div>
                 <div className={style.ContainerOrage}>
@@ -84,7 +84,7 @@ function ProductCard() {
 
             <div className={style.ContainerProducts}>
                 <div className={style.ContainerBlue}>
-                    <span className={style.ContainerNumberPorcentagem}>10%</span>
+                    <span ><h4 className={style.ContainerNumberPorcentagem}>10%</h4></span>
                     <span className={style.ContainerBlueText}>OFF</span>
                 </div>
                 <div className={style.ContainerOrage}>
