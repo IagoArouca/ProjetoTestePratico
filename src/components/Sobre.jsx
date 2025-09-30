@@ -4,7 +4,7 @@ import CatSobre from '../assets/images/CatSobre.jpg';
 import GatoCinza1 from '../assets/images/GatoCinza1.png';
 import GatoTwoimg from '../assets/images/Gatotwo.jpg';
 import GatoCaixa from '../assets/images/GatoAmareloCaixa.jpg';
-import GatoCinzaPorta from '../assets/images/GatoCinzaPorta.jpg';
+import GatoCinzaPorta from '../assets/images/GatocinzaPorta.jpg';
 import IconLike from '../assets/icons/Like.png'
 import Play from '../assets/images/Play.png'
 
