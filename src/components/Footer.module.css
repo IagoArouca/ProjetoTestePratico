@@ -1,0 +1,258 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+    width: 1317px;
+    height: 214px;
+    margin-left: 24px;
+    
+}
+
+.ContainerInformactions{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 1380px;
+    border: 1px solid black;
+}
+.ContainerBgIcon{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.ContainerFooterImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 210px;
+    background-color: #373737;
+}
+.ContainerBgIcon{
+    position: relative;
+    width: 75px;
+    height: 101.12px;
+}
+.ContainerBgIcon img {
+    position: absolute;
+    top: 55px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.BoxConjuntoPagamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ListaMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+.ListaMenu li{
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    color: #373737;
+}
+
+.BoxPagamentoESeguranca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 189px;
+    border: 1px 0px 1px 1px solid #000000;
+    
+}
+.Pagamento{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+.Pagamento h4{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.BoxIconCartao{
+    width: 159.43px;
+    height: 50.91px;
+}
+.IconCartao{
+    display: flex;
+    flex-direction: row;
+    height: 23.91px;
+    width: 37.87px;
+}
+.IconCartao img {
+    height: 100%;
+    width: 100%;
+}
+.FooterSeguranca{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 310px;
+    border-top:  1px solid black;
+    border-bottom:  1px solid black;
+    border-left:  1px solid black;
+    padding-left: 10px;
+
+}
+
+.FooterSeguranca span{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: bold;
+    color: black;
+}
+.CertificadoText{
+    position: absolute;
+    top: 42px;
+    padding: 5px;
+}
+
+.FooterCertificadoBox{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 308px;
+}
+.EmpresaCertificada{
+    height: 100%;
+    width: 68px;
+    margin-top: 60px;
+}
+.EmpresaCertificada img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.IconOpinioesVerdadeiras{
+    height: 75px;
+    width: 68px;
+    margin-top: 70px;
+}
+
+.IconOpinioesVerdadeiras img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.IconSecurite{
+    height: 46px;
+    width: 110px;
+    margin-top: 70px;
+}
+.IconSecurite img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.BoxHelp {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 200px;
+    gap: 15px;
+}
+
+.BoxHelpMini{
+    width: 45px;
+    height: 9px;
+    margin-left: 21px;
+    margin-top: 16px;
+}
+.BoxHelpMini{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.Faq{
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+    gap: 6px;
+}
+.Faq span{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.ContainerRedes{
+    display: flex;
+    flex-direction: column;
+    gap: 30pxx;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 431px;
+    
+}
+.Contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    gap: 5px;
+    border-bottom: 1px solid black;
+}
+.Contato h4 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    font-style: bold;
+}
+.Contato span {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.RedesSociais{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.RedesSociais span{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.BoxIcones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    padding-left: 2px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.MenuFooter{
+    border: 1px solid #000000;
+}
+
+.ContainerDireitosAutorais {
+    display: flex;
+    justify-content: space-between;
+}
+.ParagrafoFooter p{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}

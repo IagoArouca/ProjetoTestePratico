@@ -1,0 +1,100 @@
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-background-dark-cizento);
+    
+}
+.navProducts{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 40px;
+    border: 1px solid var(--color-white);
+    padding: 0;
+    margin: 0;
+}
+.navListProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 10px;
+    width: 68px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+.navLisProductsText{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.navColecoes{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 40px;
+    border: 1px solid var(--color-white);
+    padding: 0;
+    margin: 0;
+}
+.navListColecoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 10px;
+    width: 68px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.navListColecoesText{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.navMenu{
+    margin: 0px 10.5px 0px 0px;
+    padding: 0;
+}
+.navMenuList {
+    display: flex;
+    gap: 20px;
+    
+}
+.navMenuListLink{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.RightDivider{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.LeftDivider{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}

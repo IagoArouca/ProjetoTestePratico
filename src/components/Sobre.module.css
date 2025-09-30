@@ -1,0 +1,203 @@
+.ContainerSobre{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-top: 150px;
+    height: 1200px;
+    width: 100%;
+    
+}
+.ColorsBg{
+    background-color: #EFEFEF;
+    padding: 20px 0px 20px 0px;
+}
+
+.ContainerSobreVideo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 1200px;
+    left: 175px;
+    
+}
+
+.ContainerSobreVideoMini{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-right: 130px;
+}
+
+.BoxParagrafo p {
+    width: 505px;
+    height: 60px;
+}
+
+.BoxImgCat{
+    height: 284px;
+    width: 505px;
+    position: relative;
+}
+.BoxPlay{
+    width: 92px;
+    width: 92px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    cursor: pointer;
+}
+.BoxPlay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BoxImgCat img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.BoxParagrafo{
+    width: 505px;
+    height: 60px;
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+}
+
+.BoxText{
+    width: 396px;
+    height: 257px;
+    z-index: 5;
+}
+
+.BoxText h2 {
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 70px;
+    color: #373737;
+}
+
+.ButtonSobre{
+    width: 295px;
+    height: 45px;
+    border-radius: 29px;
+    border: 1px solid #000000;
+    padding: 12px 24px 12px 24px;
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+}
+
+.CircleColorSobre{
+    position: absolute;
+    top: -50px;
+    left: 160px;
+    width: 272px;
+    height: 280px;
+    background-color: #BB3735;
+    border-radius: 50%;
+}
+
+.ContainerComunidadeText{
+    position: absolute;
+    top: -90px;
+    left: 328px;
+    width: 499px;
+    height: 40px;
+}
+
+
+.ContainerComunidadeText p { 
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+
+}
+
+.ContainerImgCats{
+    position: relative;
+
+}
+
+.AdoradoresPapelaoTitle{
+    position: absolute;
+    top: -55px;
+    left: 328px;
+    width: 913px;
+    height: 55px;
+}
+
+.AdoradoresPapelaoTitle h2{
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 75px;
+    color: #7EB4C8;
+}
+
+.BoxCatLike{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    height: 481px;
+    margin-left: 16px;    
+}
+
+.BoxCatLike img {
+    height: 100%;
+    width: 100%;
+}
+
+.PositionOneCat{
+    height: 481px;
+    width: 1080px;
+}
+
+.IconBoxLike{
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    left: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    height: 38px;
+    width: 1095px;
+}
+
+.BoxLikeConteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+}
+
+.BoxLikeConteudo span {
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.MiniBoxLike{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.MiniBoxLikeimg {
+    height: 100%;
+    width: 100%;
+}
+

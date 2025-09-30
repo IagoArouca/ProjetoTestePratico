@@ -1,0 +1,16 @@
+.logo{
+    background-color: var( --color-white);
+    height: 40px;
+    width: 131px;
+    border: 1px solid var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 40px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}

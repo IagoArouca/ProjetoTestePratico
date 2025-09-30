@@ -1,0 +1,30 @@
+::before,
+::after {
+    box-sizing: border-box;
+    outline: none; 
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+:root {
+    --color-background-dark-cizento: #1E1E1E;
+    --color-background-dark: #000000;
+    --color-white: #EFEFEF; 
+    --font-primary: 'Inter', sans-serif; 
+}
+
+body {
+    overflow-x: hidden; 
+    width: 100%; 
+}

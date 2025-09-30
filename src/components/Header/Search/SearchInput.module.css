@@ -1,0 +1,23 @@
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 213px;
+    height: 40px;
+    border: 1px solid var(--color-white);
+    
+}
+.searchInput{
+    background: none;
+    outline: none;
+    border: none;
+    width: 159px;
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--color-white);
+}

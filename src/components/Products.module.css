@@ -1,0 +1,208 @@
+.ContainerReferencial{
+    position: relative;
+    height: 550px;
+    background-color: #EFEFEF;
+}
+
+
+.ContainerEstrutural{
+    position: absolute;
+    top: 77px;
+    left: 360px;
+    display: flex;
+    
+}
+
+.ContainerProducts{
+    position: relative;
+    width: 310px;
+    height: 436px;
+}
+
+.ContainerBlue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 7px 8px 7px 8px;
+    width: 57px;
+    height: 21px;
+    background-color: #4DA1B1;
+}
+.ContainerBlue span {
+   font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+.ContainerBlueText{
+     font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.ContainerOrage{
+    position: absolute;
+    top: 36px;
+    right: 10px;
+    padding: 7px 8px 7px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 21px;
+    background-color: #E5675D;
+}
+
+.ContainerOrage span{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.ContainerImgProduct{
+    position: absolute;
+    top: 108px;
+    right: 90px;
+    left: 90px;
+    bottom: 157px;
+    width: 130px;
+    height: 171px;
+}
+
+.ContainerImgProduct img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ContainerProductDescription{
+    position: absolute;
+    top: 336px;
+    right: 193px;
+    bottom: 69px;
+    left: 10px;
+    width: 107px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerProductDescription span{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #373737;
+}
+
+.ContainerProductPrice{
+    position: absolute;
+    top: 380px;
+    right: 165px;
+    bottom: 47px;
+    left: 10px;
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerProductPrice span {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: #373737;
+}
+
+.ContainerColors{
+    position: absolute;
+    top: 336px;
+    right: 10px;
+    bottom: 89px;
+    left: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.CircleGray{
+    width: 10.6px;
+    height: 10.6px;
+    border-radius: 50%;
+    background-color: #7EABE3;
+}
+
+.CircleRed{
+    width: 10.6px;
+    height: 10.6px;
+    border-radius: 50%;
+    background-color: #BF362E;
+}
+
+.CircleGreen{
+    width: 10.6px;
+    height: 10.6px;
+    border-radius: 50%;
+    background-color: #637652;
+}
+
+.CirclePurple{
+    width: 10.6px;
+    height: 10.6px;
+    border-radius: 50%;
+    background-color: #433643;
+}
+
+.ContainerSmall{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 358px;
+    height: 401px;
+    z-index: 2;
+}
+
+.ContainerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+}
+.ContainerText h2{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+}
+.ContainerText span{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 70px
+}
+
+.Circle{
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    width: 206px;
+    height: 206px;
+    border-radius: 50%;
+    background-color: #FFE4B3;
+}

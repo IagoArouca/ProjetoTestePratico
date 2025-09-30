@@ -1,0 +1,137 @@
+.ContainerNewsletter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 1400px;
+    height: 387px;
+    border-top: 1px solid #000000;
+    margin-left: 5px;
+}
+
+.TitleNewsletter {
+    position: absolute;
+    left: 615px;
+    top: 70px;
+    width: 341px;
+    height: 370px;
+
+}
+
+.TitleNewsletter h2 {
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 50px;
+    line-height: 100%;
+    color: #373737;
+}
+
+.ContainerMiniNewsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 347px;
+}
+
+.BoxImgCat{
+    width: 505px;
+    height: 347px;
+    margin-right: 100px;
+    margin-left: 16px;
+    
+}
+
+.BoxImgCat img {
+    width: 505px;
+    height: 347px;
+    object-fit: cover;
+}
+
+.BoxNewsletterCadastro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.ContainerBoxText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.BoxCadastre{
+    width: 290px;
+    height: 35px;
+}
+
+.BoxCadastre h3 {
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    line-height: 25px;
+    color: #373737;
+}
+.BoxDescription{
+    width: 295px;
+    height: 35px;
+}
+
+.BoxDescription p {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #373737;
+}
+
+.formunderline{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    margin-top: 80px;
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+}
+.inputgroup label {
+    width: 133px;
+    height: 10px;
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #373737;
+}
+
+.inputCadastro
+{
+   
+    border: none; 
+    border-bottom: 2px solid #000000; 
+    background-color: transparent; 
+    outline: none; 
+    padding: 0.3px 0;
+    width: 420px;
+}
+
+.ButtonCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px;
+    height: 39px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 29px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+}

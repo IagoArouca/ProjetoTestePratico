@@ -1,0 +1,24 @@
+.baseButton{
+  position: absolute;
+    z-index: 6; 
+    top: 436px; 
+    left: 48%; 
+    width: 157px; 
+    height: 46px; 
+    padding: 17px;
+    transform: translateX(-50%); 
+    border-radius: 60px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px; 
+    text-transform: uppercase;
+    background-color: #000000;
+    border: 1px solid #373737;
+}
+

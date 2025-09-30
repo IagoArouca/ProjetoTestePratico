@@ -1,0 +1,339 @@
+.ContainerColecoes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+}
+
+
+.ContainerOrange{
+    position: absolute;
+    top: 0;
+    left: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    width: 100%;
+    height: 238px;
+    background-color: #DE5A53;
+    border-top: 9px solid #262626;
+}
+
+.ContainerBeneficioPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 8px 0px 8px;
+    height: 180px;
+    width: 300px;
+    border: 1px solid #FFFFFF;
+}
+
+.ContainerNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    height: 113px;
+   
+}
+
+.Number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 250;
+    font-size: 140px;
+    line-height: 100%;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+   
+}
+
+.ContainerPrincipalSmall{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContainerPrincipalSmall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    margin-top: 12px;
+}
+
+.ContainerPrincipalSmallTitle{
+    width: 148px;
+    height: 60px;
+    line-height: 100%;
+}
+.ContainerPrincipalSmall h2 {
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.ContainerPrincipalSmallText {
+    width: 155px;
+    height: 35px;
+    padding-top: 20px;
+}
+.ContainerPrincipalSmallText p {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    line-height: 130%
+}
+
+.ContainerBeneficioSecundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 180px;
+    border: 1px solid #FFFFFF;
+}
+
+.ContainerBeneficionsSecundarioTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ContainerBeneficioSecundarioMinione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 129px;
+    width: 255px;
+    border: 1px solid #FFFFFF;
+}
+
+.ContainerBeneficiosSecundariosIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 15px 0px 15px;
+}
+.ContainerBeneficiosSecundarioTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #FFFFFF;
+    
+}
+
+.ContainerBeneficioSecundarioText{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 0px 10px 0px;
+}
+.ContainerBeneficioSecundarioText p {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0%;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.ContainerBeneficioSecundarioButtom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    height: 52px;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.ContainerBeneficioSecundarioButtom span {
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #D9D9D9;
+
+}
+
+.ContainerExplorer{
+    position: relative;
+    height: 764px;
+    margin-top: 300px;
+}
+
+.ContainerConjunto{
+    position: relative;
+    height: 547px;
+    width: 1001px;
+    display: flex;
+}
+
+
+.ContainerMovelImg{
+    margin-top: 69px;
+    width: 360px;
+    height: 469px;
+    top: 78px;
+    z-index: 3;
+}
+
+.ContainerMovelImg img{
+    height: 100%;
+    width: auto;
+}
+
+.ContainerMinimalismo{
+    position: absolute;
+    top: 0px;
+    left: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 483px;
+    height: 210px;
+    z-index: 1;
+    background-color: #4DA1B1;
+}
+.ContainerMinimalismo h2 {
+    margin-right: 48px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    color: #EFEFEF;
+}
+
+.ContainerButton{
+    position: absolute;
+    top: 274px;
+    left: 400px;
+    width: 338px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.ContainerButton p {
+    width: 338px;
+    height: 134px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ContainerSeeColections{
+    position: relative;
+    left: 312px;
+    width: 328px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContainerSeeColections h3 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.ContainerSeeColections span {
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 57px;
+    text-decoration: underline;
+}
+
+.ContainerImgMovelRight{
+    position: absolute;
+    top: 185px;
+    left: 770px;
+    height: 579px;
+    width: 465px;
+    z-index: 5;
+
+}
+.ContainerImgMovelRight img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.ContainerArrowsColecoes{
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AdicaoSimbol{
+    position: absolute;
+    left: 900px;
+    bottom: 316px;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 19px;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    z-index: 8;
+}
+
+.DottedCircle{
+    position: absolute;
+    top: 86px;
+    left: 296px;
+    height: 568px;
+    width: 568px;
+}
+
+.DottedCircle img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.HalfCircle{
+     position: absolute;
+     top: 66px;
+     left: 852px;
+     width: 298px;
+    height: 298px;
+}
